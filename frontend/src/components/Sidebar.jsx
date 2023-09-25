@@ -1,8 +1,12 @@
 import React from 'react'
 
 const Sidebar = () => {
+
     return (
-        <div className='pt-5'>
+        <div className='pt-5 position-sticky' style={{
+            position: "sticky", top: "20px", "zIndex": "1"
+        }}>
+
             <div className='text-center fs-5'>Filter by Category</div>
 
             <hr style={{ width: "90%" }} className='mx-auto' />
@@ -86,7 +90,7 @@ const Sidebar = () => {
                 <a href="#" className="btn btn-dark mb-2 mx-auto">Reset Filter</a>
             </div>
 
-        </div>
+        </div >
     )
 }
 

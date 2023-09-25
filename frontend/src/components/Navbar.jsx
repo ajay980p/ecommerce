@@ -1,4 +1,3 @@
-import { useEffect } from "react"
 import { Link, useNavigate } from "react-router-dom"
 
 const Navbar = () => {
@@ -15,17 +14,15 @@ const Navbar = () => {
     }
 
     return (
-        <div>
+        <div style={{ position: "sticky", "zIndex": "1", top: "0px" }}>
             <nav className="navbar navbar-expand-lg bg-body-tertiary">
                 <div className="container-fluid">
-                    <a className="navbar-brand" href="#">Navbar</a>
+                    <Link className="navbar-brand" to="/">ECOMMERCE</Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-
-
 
                             {/* Manage LOGIN and SIGNUP feature */}
                             {
@@ -38,11 +35,11 @@ const Navbar = () => {
                                             <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                                 Categories
                                             </a>
-                                            <ul className="dropdown-menu">
-                                                <li><a className="dropdown-item" href="#">Men</a></li>
-                                                <li><a className="dropdown-item" href="#">Women</a></li>
-                                                <li><a className="dropdown-item" href="#">Smartwatches</a></li>
-                                                <li><a className="dropdown-item" href="#">Clocks</a></li>
+                                            <ul className="dropdown-menu" style={{ backgroundColor: "green", opacity: 1, color: "white" }}>
+                                                <li><Link className="dropdown-item" style={{ color: "white", cursor: "pointer" }} to="#">Men</Link></li>
+                                                <li><Link className="dropdown-item" style={{ color: "white", cursor: "pointer" }} href="#">Women</Link></li>
+                                                <li><Link className="dropdown-item" style={{ color: "white", cursor: "pointer" }} href="#">Smartwatch</Link></li>
+                                                <li><Link className="dropdown-item" style={{ color: "white", cursor: "pointer" }} href="#">Clock</Link></li>
                                             </ul>
                                         </li>
 
