@@ -1,5 +1,5 @@
 import axios from 'axios';
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 
 const Login = () => {
@@ -27,6 +27,13 @@ const Login = () => {
             console.log(err)
         }
     }
+
+    const auth = localStorage.getItem("users");
+    useEffect(() => {
+        if (auth) {
+            navigate("/")
+        }
+    })
 
     return (
         <section className="vh-100">
@@ -70,8 +77,9 @@ const Login = () => {
                                     style={{ paddingLeft: "2.5rem", paddingRight: "2.5rem" }} onClick={() => handleLogin()} > Login</button>
 
                                 <p className="small fw-bold mt-2 pt-1 mb-0">Don't have an account? <Link
-                                    className="link-danger">Register</Link>
+                                    className="link-danger" to="/register">Register</Link>
                                 </p>
+
                             </div>
 
                         </form>

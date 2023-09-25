@@ -1,6 +1,18 @@
-import { Link } from "react-router-dom"
+import { useEffect } from "react"
+import { Link, useNavigate } from "react-router-dom"
 
 const Navbar = () => {
+
+    const navigate = useNavigate();
+    const auth = JSON.parse(localStorage.getItem("users"));
+
+    const handleLogout = () => {
+        const auth = localStorage.removeItem("users")
+
+        if (auth) {
+            navigate("/login")
+        }
+    }
 
     return (
         <div>
@@ -12,35 +24,43 @@ const Navbar = () => {
                     </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li className="nav-item">
-                                <Link className="nav-link active" aria-current="page" to="/">Home</Link>
-                            </li>
 
-                            <li className="nav-item dropdown">
-                                <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Categories
-                                </a>
-                                <ul className="dropdown-menu">
-                                    <li><a className="dropdown-item" href="#">Men</a></li>
-                                    <li><a className="dropdown-item" href="#">Women</a></li>
-                                    <li><a className="dropdown-item" href="#">Smartwatches</a></li>
-                                    <li><a className="dropdown-item" href="#">Clocks</a></li>
-                                </ul>
-                            </li>
 
 
                             {/* Manage LOGIN and SIGNUP feature */}
-                            <li className="nav-item">
-                                <Link className="nav-link" to="/login">Login</Link>
-                            </li>
+                            {
+                                auth ?
+                                    <>
+                                        <li className="nav-item">
+                                            <Link className="nav-link active" aria-current="page" to="/">Home</Link>
+                                        </li>
+                                        <li className="nav-item dropdown">
+                                            <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Categories
+                                            </a>
+                                            <ul className="dropdown-menu">
+                                                <li><a className="dropdown-item" href="#">Men</a></li>
+                                                <li><a className="dropdown-item" href="#">Women</a></li>
+                                                <li><a className="dropdown-item" href="#">Smartwatches</a></li>
+                                                <li><a className="dropdown-item" href="#">Clocks</a></li>
+                                            </ul>
+                                        </li>
 
-                            <li className="nav-item">
-                                <Link className="nav-link" to="/register">Register</Link>
-                            </li>
+                                        <li className="nav-item">
+                                            <Link className="nav-link" to="/login" onClick={() => handleLogout()}>Logout</Link>
+                                        </li>
+                                    </>
+                                    :
+                                    <>
+                                        <li className="nav-item">
+                                            <Link className="nav-link" to="/login">Login</Link>
+                                        </li>
 
-                            <li className="nav-item">
-                                <Link className="nav-link" to="/register">Logout</Link>
-                            </li>
+                                        <li className="nav-item">
+                                            <Link className="nav-link" to="/register">Register</Link>
+                                        </li>
+                                    </>
+                            }
 
                         </ul>
                         <form className="d-flex" role="search">

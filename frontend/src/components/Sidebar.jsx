@@ -14,24 +14,28 @@ const Sidebar = () => {
                         women
                     </label>
                 </div>
+
                 <div className="form-check">
                     <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
                     <label className="form-check-label" >
                         men
                     </label>
                 </div>
+
                 <div className="form-check">
                     <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
                     <label className="form-check-label" >
                         smartwatches
                     </label>
                 </div>
+
                 <div className="form-check">
                     <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
                     <label className="form-check-label" >
                         wall clocks
                     </label>
                 </div>
+
                 <div className="form-check">
                     <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
                     <label className="form-check-label" >

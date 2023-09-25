@@ -1,7 +1,10 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import axios from "axios"
+import { useNavigate } from 'react-router-dom';
 
 const Register = () => {
+
+    const navigate = useNavigate();
 
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
@@ -11,8 +14,6 @@ const Register = () => {
     const [address, setAddress] = useState("")
 
     const handleSubmit = async () => {
-
-        console.warn(name, email, password, phone, sports, address)
 
         try {
             const response = await axios.post("http://localhost:4000/register", {
@@ -24,12 +25,31 @@ const Register = () => {
                 address: address
             });
 
-            console.log("Success", response.data)
+            let responseData = response.data;
+
+            delete responseData.password;
+            delete responseData.phone;
+            delete responseData.sports;
+            delete responseData.address;
+
+            if (response) {
+                const data = localStorage.setItem("users", JSON.stringify(responseData))
+                navigate('/');
+            }
+            else {
+                navigate('/login')
+            }
+
         }
         catch (err) {
             console.log("Register error : ", err)
         }
     }
+
+    const auth = localStorage.getItem("users")
+    useEffect(() => {
+        navigate("/")
+    })
 
     return (
         <div>

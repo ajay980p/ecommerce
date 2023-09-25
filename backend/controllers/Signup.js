@@ -9,7 +9,7 @@ const SignupPost = async (req, res) => {
         const data = await user.save();
 
         // Send a success response back to the client
-        res.status(200).json({ message: 'User registered successfully' });
+        res.send(data);
     }
     catch (err) {
         console.error(err);

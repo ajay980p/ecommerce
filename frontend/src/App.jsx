@@ -5,6 +5,7 @@ import ShowProducts from "./components/ShowProducts"
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Login from './components/authentication/Login'
 import ProductWithID from './components/ProductWithID'
+import PrivateComponent from './components/authentication/PrivateComponent'
 
 function App() {
   return (
@@ -12,10 +13,14 @@ function App() {
       <Navbar />
 
       <Routes>
-        <Route path='/' element={<ShowProducts />} />
+
+        <Route element={<PrivateComponent />}>
+          <Route path='/' element={<ShowProducts />} />
+          <Route path='/product/:id' element={<ProductWithID />} />
+        </Route>
+
         <Route path='/register' element={<Register />} />
         <Route path='/login' element={<Login />} />
-        <Route path='/product/:id' element={<ProductWithID />} />
       </Routes>
 
     </BrowserRouter>
