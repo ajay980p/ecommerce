@@ -25,6 +25,17 @@ const ProductWithID = () => {
         fetchData();
     }, [])
 
+    const [quantity, setQuantity] = useState(1);
+    const productIncrement = () => {
+        setQuantity(quantity + 1);
+    }
+
+    const productDecrement = () => {
+        if (quantity > 1) {
+            setQuantity(quantity - 1);
+        }
+    }
+
     return (
         <div>
             <div className="container">
@@ -62,10 +73,27 @@ const ProductWithID = () => {
                                     <div className="col-lg-12">
                                         <p className="tag-section"><strong>Tag : </strong>{product.category}</p>
                                     </div>
+
                                     <div className="col-lg-12">
                                         <h6>Quantity :</h6>
-                                        <input type="number" className="form-control text-center w-100" value="1" />
+                                        <div className="input-group">
+                                            <button
+                                                className="btn btn-outline-secondary"
+                                                onClick={(e) => productDecrement(e.target.value)}
+                                            >
+                                                -
+                                            </button>
+
+                                            <span className="input-group-text">{quantity}</span>
+                                            <button
+                                                className="btn btn-outline-secondary"
+                                                onClick={(e) => productIncrement(e.target.value)}
+                                            >
+                                                +
+                                            </button>
+                                        </div>
                                     </div>
+
                                     <div className="col-lg-12 mt-3">
                                         <div className="row">
                                             <div className="col-lg-6 pb-2">
@@ -86,9 +114,10 @@ const ProductWithID = () => {
                             <h4>More Product</h4>
                         </div>
                     </div>
+
                 </div>
             </div>
-        </div>
+        </div >
     )
 }
 

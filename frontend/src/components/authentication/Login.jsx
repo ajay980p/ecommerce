@@ -1,9 +1,10 @@
 import axios from 'axios';
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 
 const Login = () => {
 
+    const navigate = useNavigate();
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
 
@@ -11,10 +12,16 @@ const Login = () => {
         console.log(email, password)
 
         try {
-            const response = await axios.get("http://localhost:4000/login")
-            console.log(response.data);
+            const response = await axios.post("http://localhost:4000/login", {
+                email: email,
+                password: password
+            })
 
-            // if()
+            const userDetails = localStorage.setItem("users", JSON.stringify(response.data));
+
+            if (response) {
+                navigate("/")
+            }
         }
         catch (err) {
             console.log(err)
@@ -62,8 +69,8 @@ const Login = () => {
                                 <button type="button" className="btn btn-primary btn-lg"
                                     style={{ paddingLeft: "2.5rem", paddingRight: "2.5rem" }} onClick={() => handleLogin()} > Login</button>
 
-                                <p className="small fw-bold mt-2 pt-1 mb-0">Don't have an account? <a href="#!"
-                                    className="link-danger">Register</a>
+                                <p className="small fw-bold mt-2 pt-1 mb-0">Don't have an account? <Link
+                                    className="link-danger">Register</Link>
                                 </p>
                             </div>
 

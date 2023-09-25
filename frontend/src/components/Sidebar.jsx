@@ -2,8 +2,8 @@ import React from 'react'
 
 const Sidebar = () => {
     return (
-        <div>
-            <div className='text-center fs-5 pt-4'>Filter by Category</div>
+        <div className='pt-5'>
+            <div className='text-center fs-5'>Filter by Category</div>
 
             <hr style={{ width: "90%" }} className='mx-auto' />
 

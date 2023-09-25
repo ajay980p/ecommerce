@@ -30,8 +30,8 @@ app.get("/products", async (req, res) => {
 app.post("/register", SignupPost);
 
 
-
-app.get("/login", UserLogin);
+// User LOGIN
+app.post("/login", UserLogin);
 
 
 // Get Products

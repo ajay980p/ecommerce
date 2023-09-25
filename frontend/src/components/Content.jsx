@@ -25,12 +25,12 @@ const Content = () => {
 
     return (
         <div className=' pr-5 mt-5'>
-            <div className='text-center fs-2'>All Products</div>
+            <div className='text-center fs-2 fw-bold'>All Products</div>
 
             {
                 products.map((product) => (
 
-                    <div className='m-4 d-inline-flex' key={product._id}>
+                    <div className='m-4 d-inline-flex flex-wrap' key={product._id}>
 
                         <div className="card" style={{ width: "18rem" }}>
                             <img src={product.image_link} className="card-img-top" alt="Image" style={{ height: "300px" }} />
