@@ -1,0 +1,92 @@
+{
+  "products": [
+    {
+      "category": "women",
+      "image_link": "https://img.faballey.com/images/Product/ITN04679Z/3.jpg",
+      "price": "$49.99",
+      "product_name": "Women's Floral Print Dress",
+      "description": "This dress features a floral print, a round neckline, and a flared skirt. It is made of soft and breathable cotton fabric, and has a zipper closure at the back. It is perfect for casual or formal occasions.",
+      "rating": "4.5"
+    },
+    {
+      "category": "men",
+      "image_link": "https://i.pinimg.com/474x/52/90/28/5290288fc677dcc2c7098f0f030c5e65.jpg",
+      "price": "$79.99",
+      "product_name": "Men's Leather Jacket",
+      "description": "This jacket is made of genuine leather, and has a classic biker style. It has a zippered front, four pockets, and a snap collar. It is lined with polyester, and has a slim fit. It is durable and stylish, and can be worn with jeans or trousers.",
+      "rating": "4.7"
+    },
+    {
+      "category": "smartwatches",
+      "image_link": "https://m.media-amazon.com/images/I/61TapeOXotL._AC_UF1000,1000_QL80_.jpg",
+      "price": "$199.99",
+      "product_name": "Smartwatch with Heart Rate Monitor",
+      "description": "This smartwatch has a 1.4-inch touchscreen display, and can track your heart rate, steps, calories, sleep, and more. It can also receive notifications from your smartphone, and control your music and camera. It has a battery life of up to 7 days, and is water-resistant up to 50 meters. It is compatible with Android and iOS devices.",
+      "rating": "4.3"
+    },
+    {
+      "category": "wall clocks",
+      "image_link": "https://ii1.pepperfry.com/media/catalog/product/b/r/1100x1210/brown-wooden-vintage-pendulum-wall-clock-by-zahab-brown-wooden-vintage-pendulum-wall-clock-by-zahab-65nky9.jpg",
+      "price": "$29.99",
+      "product_name": "Wall Clock with Pendulum",
+      "description": "This wall clock has a pendulum that swings back and forth, and a chime that sounds every hour. It has a wooden frame, and a glass cover. It has a quartz movement, and requires two AA batteries (not included). It is easy to hang, and has a vintage look.",
+      "rating": "4.2"
+    },
+    {
+      "category": "alarm clocks",
+      "image_link": "https://images-cdn.ubuy.qa/63d843e33496235ded4a574f-wake-up-light-sunrise-alarm-clock-for.jpg",
+      "price": "$19.99",
+      "product_name": "Alarm Clock with Sunrise Simulation",
+      "description": "This alarm clock has a sunrise simulation feature, that gradually increases the light intensity before the alarm goes off. It also has a snooze function, and six natural sounds to choose from. It has a LED display, and a USB port for charging your devices. It is powered by an adapter (included), or by three AAA batteries (not included). It is ideal for waking up naturally and gently.",
+      "rating": "4.4"
+    },
+    {
+      "category": "women",
+      "image_link": "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/12178124/2020/9/15/dedf13c3-b77c-46f6-8e0f-5f67bac9eb471600147617433-Roadster-Women-Jackets-4451600147615774-1.jpg",
+      "price": "$39.99",
+      "product_name": "Women's Denim Jacket",
+      "description": "This jacket is made of denim, and has a button-down front, two chest pockets, and two side pockets. It has a collar, long sleeves, and a cropped hem. It is versatile and comfortable, and can be paired with dresses, skirts, or pants.",
+      "rating": "4.6"
+    },
+    {
+      "category": "men",
+      "image_link": "https://i.pinimg.com/236x/8f/6d/d6/8f6dd6a89b94b17c02fc617cb8cd37f8--mens-style-guide-men-style-blog.jpg",
+      "price": "$69.99",
+      "product_name": "Men's Wool Coat",
+      "description": "This coat is made of wool, and has a notch lapel, a double-breasted front, and two flap pockets. It has a back vent, a lining, and a belt. It is warm and elegant, and can be worn over suits or sweaters.",
+      "rating": "4.8"
+    },
+    {
+      "category": "smartwatches",
+      "image_link": "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1684948139/Croma%20Assets/Communication/Wearable%20Devices/Images/237954_0_rinooc.png?tr=w-600",
+      "price": "$149.99",
+      "product_name": "Smartwatch with GPS and Music",
+      "description": "This smartwatch has a 1.3-inch color display, and can track your GPS location, speed, distance, and route. It can also store and play up to 500 songs, and connect with wireless headphones. It has a battery life of up to 5 days, and is water-resistant up to 30 meters. It is compatible with Android and iOS devices.",
+      "rating": "4.1"
+    },
+    {
+      "category": "wall clocks",
+      "image_link": "https://i.etsystatic.com/27954061/r/il/9ef0de/3146340979/il_fullxfull.3146340979_bocx.jpg",
+      "price": "$19.99",
+      "product_name": "Wall Clock with World Map",
+      "description": "This wall clock has a world map design, and shows the time in different time zones. It has a metal frame, and a plastic cover. It has a silent movement, and requires one AA battery (not included). It is easy to hang, and has a modern look.",
+      "rating": "4.0"
+    },
+    {
+      "category": "alarm clocks",
+      "image_link": "https://m.media-amazon.com/images/I/61Euywu9V-L._AC_UF894,1000_QL80_.jpg",
+      "price": "$24.99",
+      "product_name": "Alarm Clock with Projection",
+      "description": "This alarm clock has a projection feature, that can display the time and temperature on the ceiling or wall. It also has a dual alarm function, and a FM radio. It has a LED display, and a dimmer function. It is powered by an adapter (included), or by two AAA batteries (not included). It is convenient and fun.",
+      "rating": "4.2"
+    },
+    {
+      "category": "women",
+      "image_link": "https://i.etsystatic.com/11657093/r/il/ee1aa1/3578701762/il_fullxfull.3578701762_shh6.jpg",
+      "price": "$59.99",
+      "product_name": "Women's Leather Boots",
+      "description": "These boots are made of leather, and have a lace-up front, a side zipper, and a buckle strap. They have a round toe, a chunky heel, and a rubber sole. They are comfortable and durable, and can be worn with jeans, leggings, or skirts.",
+      "rating": "4.7"
+    }
+  ]
+}

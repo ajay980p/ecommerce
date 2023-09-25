@@ -4,6 +4,7 @@ import Register from "./components/authentication/Register"
 import ShowProducts from "./components/ShowProducts"
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Login from './components/authentication/Login'
+import ProductWithID from './components/ProductWithID'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path='/' element={<ShowProducts />} />
         <Route path='/register' element={<Register />} />
         <Route path='/login' element={<Login />} />
+        <Route path='/product/:id' element={<ProductWithID />} />
       </Routes>
 
     </BrowserRouter>

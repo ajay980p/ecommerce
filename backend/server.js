@@ -6,6 +6,7 @@ const DB = require("./config/db");
 const UserSchema = require("./models/userModels");
 const UserLogin = require("./controllers/Login")
 const ProductSchema = require("./models/productModel");
+const { ProductsData, ProductDataWithID } = require("./controllers/ProductsData")
 const port = 4000;
 
 const SignupPost = require("./controllers/Signup");
@@ -31,6 +32,14 @@ app.post("/register", SignupPost);
 
 
 app.get("/login", UserLogin);
+
+
+// Get Products
+app.get("/products", ProductsData);
+
+
+// Get Product With ID
+app.get("/product/:id", ProductDataWithID)
 
 
 
