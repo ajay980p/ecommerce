@@ -21,14 +21,17 @@ const Content = () => {
         fetchData();
     }, [])
 
+    // Giving Load more button functionalities
+    const [noOfElements, setNoOfElements] = useState(6);
+    let data = products.slice(0, noOfElements);
+
     return (
         <div className='pr-5 mt-5'>
             <div className='text-center fs-2 fw-bold'>All Products</div>
 
             <div className='pr-5 d-flex flex-wrap justify-content-center align-items-center'>
-
                 {
-                    products.map((product) => (
+                    data.map((product) => (
 
                         <div className='m-4 d-inline-flex flex-wrap' key={product._id}>
 
@@ -53,7 +56,7 @@ const Content = () => {
             </div>
 
             <div className='mx-auto text-center mt-4'>
-                <a href="#" className="btn btn-dark mb-2 mx-auto">Load more</a>
+                <button className="btn btn-dark mb-2 mx-auto" onClick={() => setNoOfElements(noOfElements + 6)}>Load more</button>
             </div>
         </div >
     )
