@@ -13,46 +13,55 @@ const ShowProducts = () => {
     const [products, setProducts] = useState([])
     const [categories, setCategories] = useState(null)
 
-    useEffect(() => {
+    const [minPrice, setMinPrice] = useState(null);
+    const [maxPrice, setMaxPrice] = useState(null);
 
+    useEffect(() => {
         // To get All the Data
         const fetchData = async () => {
             try {
-                // const params = {
-                //     category: 'men', // Replace with the selected category
-                //     minPrice: 201,  // Replace with the minimum price
-                //     maxPrice: 500   // Replace with the maximum price
-                // };
-
                 const response = await axios.get("http://localhost:4000/products", {
                     params: {
                         category: categories,
+                        minPrice: minPrice,
+                        maxPrice: maxPrice
                     }
                 });
+
+                console.log("MINIMUM", minPrice);
+                console.log("MAXIMUM", maxPrice);
+
                 setProducts(response.data);
-                console.log("Products ", response.data)
-            }
-            catch (err) {
+                console.log("Products ", response.data);
+            } catch (err) {
                 console.log("Unable to fetch data");
             }
-        }
+        };
+
         fetchData();
 
         // Authentication
         if (!auth) {
-            navigate('/login')
+            navigate('/login');
         }
-
-    }, [categories])
+    }, [categories, minPrice]); // Include minPrice in the dependency array
 
 
     return (
         <div className='d-flex w-100 gap-4'>
             <div className='w-25'>
-                <Sidebar setCategories={setCategories} />
+                <Sidebar
+                    setCategories={setCategories}
+                    setMinPrice={setMinPrice}
+                    setMaxPrice={setMaxPrice}
+                />
             </div>
+
             <div className='w-75'>
-                <Content products={products} categories={categories} />
+                <Content
+                    products={products}
+                    categories={categories}
+                />
             </div>
         </div>
     )
