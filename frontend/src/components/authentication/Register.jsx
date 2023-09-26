@@ -48,8 +48,10 @@ const Register = () => {
 
     const auth = localStorage.getItem("users")
     useEffect(() => {
-        navigate("/")
-    })
+        if (auth) {
+            navigate("/")
+        }
+    }, [])
 
     return (
         <div>

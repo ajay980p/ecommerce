@@ -17,14 +17,6 @@ app.use(express.json());
 // Enable CORS
 app.use(cors());
 
-app.get("/products", async (req, res) => {
-    try {
-        const data = await ProductSchema.find();
-        res.send(data);
-    } catch (err) {
-        res.status(500).json({ error: err });
-    }
-});
 
 // To Submit the User Details
 app.post("/register", SignupPost);

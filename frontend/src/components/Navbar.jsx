@@ -6,7 +6,7 @@ const Navbar = () => {
     const auth = JSON.parse(localStorage.getItem("users"));
 
     const handleLogout = () => {
-        const auth = localStorage.removeItem("users")
+        const auth = localStorage.clear();
 
         if (auth) {
             navigate("/login")
@@ -44,7 +44,7 @@ const Navbar = () => {
                                         </li>
 
                                         <li className="nav-item">
-                                            <Link className="nav-link text-light" to="/login" onClick={() => handleLogout()}>Logout</Link>
+                                            <Link className="nav-link text-light" to="/login" onClick={() => handleLogout()}>Logout ({auth.name})</Link>
                                         </li>
                                     </>
                                     :

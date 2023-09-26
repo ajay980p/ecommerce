@@ -3,12 +3,31 @@ const ProductSchema = require("../models/productModel")
 
 const ProductsData = async (req, res) => {
     try {
-        const response = ProductSchema.find();
+
+        let { category } = req.query;
+
+        let query = {}
+
+        if (category) {
+            query.category = category;
+        }
+
+        // if (minPrice) {
+        //     query.price = { $gte: minPrice };
+        // }
+
+        // if (maxPrice) {
+        //     query.price = { $lte: maxPrice };
+        // }
+
+        const response = await ProductSchema.find(query);
         res.send(response);
+
     } catch (err) {
-        res.send(err);
+        res.status(500).send(err);
     }
-}
+};
+
 
 const ProductDataWithID = async (req, res) => {
 
