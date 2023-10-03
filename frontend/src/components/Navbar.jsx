@@ -22,33 +22,37 @@ const Navbar = () => {
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul className="navbar-nav me-auto mb-2 mb-lg-0">
 
-                            {/* Manage LOGIN and SIGNUP feature */}
-                            {
-                                auth ?
-                                    <>
+                        {/* Manage LOGIN and SIGNUP feature */}
+                        {
+                            auth ?
+                                <>
+                                    <ul className="navbar-nav me-auto mb-2 mb-lg-0 ">
                                         <li className="nav-item">
                                             <Link className="nav-link active text-light" aria-current="page" to="/">Home</Link>
-                                        </li>
-                                        <li className="nav-item dropdown">
-                                            <a className="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                Categories
-                                            </a>
-                                            <ul className="dropdown-menu" style={{ backgroundColor: "green", opacity: 1, color: "white" }}>
-                                                <li><Link className="dropdown-item" style={{ color: "white", cursor: "pointer" }} to="#">Men</Link></li>
-                                                <li><Link className="dropdown-item" style={{ color: "white", cursor: "pointer" }} href="#">Women</Link></li>
-                                                <li><Link className="dropdown-item" style={{ color: "white", cursor: "pointer" }} href="#">Smartwatch</Link></li>
-                                                <li><Link className="dropdown-item" style={{ color: "white", cursor: "pointer" }} href="#">Clock</Link></li>
-                                            </ul>
                                         </li>
 
                                         <li className="nav-item">
                                             <Link className="nav-link text-light" to="/login" onClick={() => handleLogout()}>Logout ({auth.name})</Link>
                                         </li>
-                                    </>
-                                    :
-                                    <>
+
+                                        <form className="d-flex" role="search">
+                                            <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                                            <button className="btn bg-success text-light" type="submit">Search</button>
+                                        </form>
+
+                                        <li>
+                                            <Link className="nav-link active text-light" aria-current="page" to="/cart">cart {0}</Link>
+                                        </li>
+
+                                        {/* <li className="nav-item">
+                                            <Link className="nav-link text-light" to="/login">Cart</Link>
+                                        </li> */}
+                                    </ul>
+                                </>
+                                :
+                                <>
+                                    <ul className="navbar-nav me-auto mb-2 mb-lg-0 ">
                                         <li className="nav-item">
                                             <Link className="nav-link text-light" to="/login">Login</Link>
                                         </li>
@@ -56,17 +60,12 @@ const Navbar = () => {
                                         <li className="nav-item">
                                             <Link className="nav-link text-light" to="/register">Register</Link>
                                         </li>
-                                    </>
-                            }
-
-                        </ul>
-                        <form className="d-flex" role="search">
-                            <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                            <button className="btn bg-success text-light" type="submit">Search</button>
-                        </form>
+                                    </ul>
+                                </>
+                        }
                     </div>
                 </div>
-            </nav>
+            </nav >
         </div >
     )
 }

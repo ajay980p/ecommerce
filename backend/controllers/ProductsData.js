@@ -5,10 +5,6 @@ const ProductsData = async (req, res) => {
     try {
         let { category, minPrice, maxPrice } = req.query;
 
-        console.log('Received category:', category);
-        console.log('Received minPrice:', minPrice);
-        console.log('Received maxPrice:', maxPrice);
-
         let query = {}
 
         if (category) {
@@ -26,10 +22,6 @@ const ProductsData = async (req, res) => {
             maxPrice = parseInt(maxPrice, 10)
             query.price = { $lte: maxPrice };
         }
-
-        console.log(query);
-
-        // { category: 'men', price: { $gte: 1800, $lte: 5000 }
 
         const response = await ProductSchema.find(query);
         res.send(response);

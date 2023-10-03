@@ -28,11 +28,11 @@ const ShowProducts = () => {
                     }
                 });
 
-                console.log("MINIMUM", minPrice);
-                console.log("MAXIMUM", maxPrice);
+                // console.log("MINIMUM", minPrice);
+                // console.log("MAXIMUM", maxPrice);
 
                 setProducts(response.data);
-                console.log("Products ", response.data);
+                // console.log("Products ", response.data);
             } catch (err) {
                 console.log("Unable to fetch data");
             }
@@ -44,7 +44,7 @@ const ShowProducts = () => {
         if (!auth) {
             navigate('/login');
         }
-    }, [categories, minPrice]); // Include minPrice in the dependency array
+    }, [categories, minPrice]);
 
 
     return (

@@ -3,7 +3,7 @@
     {
       "category": "women",
       "image_link": "https://img.faballey.com/images/Product/ITN04679Z/3.jpg",
-      "price": "$49.99",
+      "price": 3624.35,
       "product_name": "Women's Floral Print Dress",
       "description": "This dress features a floral print, a round neckline, and a flared skirt. It is made of soft and breathable cotton fabric, and has a zipper closure at the back. It is perfect for casual or formal occasions.",
       "rating": "4.5"
@@ -11,31 +11,31 @@
     {
       "category": "men",
       "image_link": "https://i.pinimg.com/474x/52/90/28/5290288fc677dcc2c7098f0f030c5e65.jpg",
-      "price": "$79.99",
+      "price": 6479.67,
       "product_name": "Men's Leather Jacket",
       "description": "This jacket is made of genuine leather, and has a classic biker style. It has a zippered front, four pockets, and a snap collar. It is lined with polyester, and has a slim fit. It is durable and stylish, and can be worn with jeans or trousers.",
       "rating": "4.7"
     },
     {
-      "category": "smartwatches",
+      "category": "smartwatch",
       "image_link": "https://m.media-amazon.com/images/I/61TapeOXotL._AC_UF1000,1000_QL80_.jpg",
-      "price": "$199.99",
+      "price": 14428.95,
       "product_name": "Smartwatch with Heart Rate Monitor",
       "description": "This smartwatch has a 1.4-inch touchscreen display, and can track your heart rate, steps, calories, sleep, and more. It can also receive notifications from your smartphone, and control your music and camera. It has a battery life of up to 7 days, and is water-resistant up to 50 meters. It is compatible with Android and iOS devices.",
       "rating": "4.3"
     },
     {
-      "category": "wall clocks",
+      "category": "clock",
       "image_link": "https://ii1.pepperfry.com/media/catalog/product/b/r/1100x1210/brown-wooden-vintage-pendulum-wall-clock-by-zahab-brown-wooden-vintage-pendulum-wall-clock-by-zahab-65nky9.jpg",
-      "price": "$29.99",
+      "price": 2724.65,
       "product_name": "Wall Clock with Pendulum",
       "description": "This wall clock has a pendulum that swings back and forth, and a chime that sounds every hour. It has a wooden frame, and a glass cover. It has a quartz movement, and requires two AA batteries (not included). It is easy to hang, and has a vintage look.",
       "rating": "4.2"
     },
     {
-      "category": "alarm clocks",
+      "category": "clock",
       "image_link": "https://images-cdn.ubuy.qa/63d843e33496235ded4a574f-wake-up-light-sunrise-alarm-clock-for.jpg",
-      "price": "$19.99",
+      "price": 1814.95,
       "product_name": "Alarm Clock with Sunrise Simulation",
       "description": "This alarm clock has a sunrise simulation feature, that gradually increases the light intensity before the alarm goes off. It also has a snooze function, and six natural sounds to choose from. It has a LED display, and a USB port for charging your devices. It is powered by an adapter (included), or by three AAA batteries (not included). It is ideal for waking up naturally and gently.",
       "rating": "4.4"
@@ -43,7 +43,7 @@
     {
       "category": "women",
       "image_link": "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/12178124/2020/9/15/dedf13c3-b77c-46f6-8e0f-5f67bac9eb471600147617433-Roadster-Women-Jackets-4451600147615774-1.jpg",
-      "price": "$39.99",
+      "price": 2901.15,
       "product_name": "Women's Denim Jacket",
       "description": "This jacket is made of denim, and has a button-down front, two chest pockets, and two side pockets. It has a collar, long sleeves, and a cropped hem. It is versatile and comfortable, and can be paired with dresses, skirts, or pants.",
       "rating": "4.6"
@@ -51,31 +51,31 @@
     {
       "category": "men",
       "image_link": "https://i.pinimg.com/236x/8f/6d/d6/8f6dd6a89b94b17c02fc617cb8cd37f8--mens-style-guide-men-style-blog.jpg",
-      "price": "$69.99",
+      "price": 5099.31,
       "product_name": "Men's Wool Coat",
       "description": "This coat is made of wool, and has a notch lapel, a double-breasted front, and two flap pockets. It has a back vent, a lining, and a belt. It is warm and elegant, and can be worn over suits or sweaters.",
       "rating": "4.8"
     },
     {
-      "category": "smartwatches",
-      "image_link": "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1684948139/Croma%20Assets/Communication/Wearable%20Devices/Images/237954_0_rinooc.png?tr=w-600",
-      "price": "$149.99",
+      "category": "smartwatch",
+      "image_link": "https://media-ik.croma.com/prod/https-media-croma-com-image-upload-v1684948139-Croma-Assets-Communication-Wearable-Devices-Images-237954_0_rinooc.png?tr=w-600",
+      "price": 10724.61,
       "product_name": "Smartwatch with GPS and Music",
       "description": "This smartwatch has a 1.3-inch color display, and can track your GPS location, speed, distance, and route. It can also store and play up to 500 songs, and connect with wireless headphones. It has a battery life of up to 5 days, and is water-resistant up to 30 meters. It is compatible with Android and iOS devices.",
       "rating": "4.1"
     },
     {
-      "category": "wall clocks",
+      "category": "clock",
       "image_link": "https://i.etsystatic.com/27954061/r/il/9ef0de/3146340979/il_fullxfull.3146340979_bocx.jpg",
-      "price": "$19.99",
+      "price": 1814.95,
       "product_name": "Wall Clock with World Map",
       "description": "This wall clock has a world map design, and shows the time in different time zones. It has a metal frame, and a plastic cover. It has a silent movement, and requires one AA battery (not included). It is easy to hang, and has a modern look.",
       "rating": "4.0"
     },
     {
-      "category": "alarm clocks",
+      "category": "clock",
       "image_link": "https://m.media-amazon.com/images/I/61Euywu9V-L._AC_UF894,1000_QL80_.jpg",
-      "price": "$24.99",
+      "price": 2174.35,
       "product_name": "Alarm Clock with Projection",
       "description": "This alarm clock has a projection feature, that can display the time and temperature on the ceiling or wall. It also has a dual alarm function, and a FM radio. It has a LED display, and a dimmer function. It is powered by an adapter (included), or by two AAA batteries (not included). It is convenient and fun.",
       "rating": "4.2"
@@ -83,10 +83,201 @@
     {
       "category": "women",
       "image_link": "https://i.etsystatic.com/11657093/r/il/ee1aa1/3578701762/il_fullxfull.3578701762_shh6.jpg",
-      "price": "$59.99",
+      "price": 3624.35,
       "product_name": "Women's Leather Boots",
       "description": "These boots are made of leather, and have a lace-up front, a side zipper, and a buckle strap. They have a round toe, a chunky heel, and a rubber sole. They are comfortable and durable, and can be worn with jeans, leggings, or skirts.",
       "rating": "4.7"
+    },
+    {
+      "category": "clock",
+      "image_link": "https://m.media-amazon.com/images/I/71kyUEqVm6L.jpg",
+      "price": 249.99,
+      "product_name": "Elegant Wall Clock",
+      "description": "An elegant wall clock with a classic design. It features a wooden frame and a clear glass cover. Perfect for adding style to your home or office.",
+      "rating": "4.4"
+    },
+    {
+      "category": "smartwatch",
+      "image_link": "https://media.wired.com/photos/61b26233c2f5f4d2aaf1c2b5/master/w_320,c_limit/Gear-Fitbit-Charge-5.jpg",
+      "price": 599.99,
+      "product_name": "Smartwatch with Fitness Tracking",
+      "description": "A smartwatch with fitness tracking capabilities. Monitor your steps, heart rate, and more. Stay connected with notifications on your wrist.",
+      "rating": "4.2"
+    },
+    {
+      "category": "men",
+      "image_link": "https://5.imimg.com/data5/SELLER/Default/2023/1/CA/RF/CU/102058255/shimak-casual-shirts-printed-full-sleeve-500x500.jpg",
+      "price": 799.99,
+      "product_name": "Men's Casual Shirt",
+      "description": "A stylish casual shirt for men. Made of comfortable fabric and suitable for various occasions.",
+      "rating": "4.6"
+    },
+    {
+      "category": "women",
+      "image_link": "https://image.made-in-china.com/202f0j00PydTJbrzLlqv/Women-Summer-Fashion-Elastic-Beach-Dress-Floral-Painted-Causal-Dress-Women-s-Suit-2-Pieces-Dresses-Set.jpg",
+      "price": 399.99,
+      "product_name": "Women's Summer Dress",
+      "description": "A beautiful summer dress for women. Lightweight and perfect for sunny days.",
+      "rating": "4.7"
+    },
+    {
+      "category": "clock",
+      "image_link": "https://m.media-amazon.com/images/I/81THJTf1X5L._AC_UF894,1000_QL80_.jpg",
+      "price": 349.99,
+      "product_name": "Vintage Desk Clock",
+      "description": "A vintage-style desk clock with a metal frame. Adds a touch of nostalgia to your workspace.",
+      "rating": "4.5"
+    },
+    {
+      "category": "smartwatch",
+      "image_link": "https://m.media-amazon.com/images/I/61-QzACdm3L._AC_UF1000,1000_QL80_.jpg",
+      "price": 899.99,
+      "product_name": "Premium Smartwatch",
+      "description": "A premium smartwatch with advanced features. Track your health, receive calls, and more.",
+      "rating": "4.8"
+    },
+    {
+      "category": "men",
+      "image_link": "https://m.media-amazon.com/images/I/81ecSfN2OOL._AC_UY1100_.jpg",
+      "product_name": "Men's Leather Wallet",
+      "description": "A genuine leather wallet for men. Stylish and functional, with multiple card slots and compartments.",
+      "rating": "4.4"
+    },
+    {
+      "category": "women",
+      "image_link": "https://m.media-amazon.com/images/I/61he93cIKrL._AC_UY1000_.jpg",
+      "price": 299.99,
+      "product_name": "Women's Fashion Handbag",
+      "description": "A fashionable handbag for women. Perfect for carrying your essentials in style.",
+      "rating": "4.6"
+    },
+    {
+      "category": "clock",
+      "image_link": "https://ii1.pepperfry.com/media/catalog/product/m/e/1100x1210/metal-designer-peacock-wall-clock-by-funkydecors-metal-designer-peacock-wall-clock-by-funkydecors-hkxy68.jpg",
+      "price": 349.99,
+      "product_name": "Modern Wall Clock",
+      "description": "A modern wall clock with a minimalist design. Features silent movement and easy-to-read numbers.",
+      "rating": "4.7"
+    },
+    {
+      "category": "smartwatch",
+      "image_link": "https://www.boat-lifestyle.com/cdn/shop/products/WaveElite.2801.png?v=1678432973",
+      "price": 499.99,
+      "product_name": "Fitness Tracker Smartwatch",
+      "description": "A fitness tracker smartwatch with heart rate monitoring and GPS. Stay active and healthy.",
+      "rating": "4.3"
+    },
+    {
+      "category": "men",
+      "image_link": "https://i.pinimg.com/1200x/ea/0e/28/ea0e287ce57e64e3a1fb59b87ec57409.jpg",
+      "price": 899.99,
+      "product_name": "Men's Classic Suit",
+      "description": "A classic suit for men suitable for formal occasions. Timeless and stylish.",
+      "rating": "4.9"
+    },
+    {
+      "category": "women",
+      "image_link": "https://m.media-amazon.com/images/I/61WY4XKyknL._AC_UY1100_.jpg",
+      "price": 299.99,
+      "product_name": "Women's Casual Blouse",
+      "description": "A casual blouse for women, perfect for everyday wear. Comfortable and versatile.",
+      "rating": "4.5"
+    },
+    {
+      "category": "clock",
+      "image_link": "https://m.media-amazon.com/images/I/81LcN3cRXXL.jpg",
+      "price": 199.99,
+      "product_name": "Antique Desk Clock",
+      "description": "An antique-style desk clock with a wooden base. Adds a vintage touch to your workspace.",
+      "rating": "4.4"
+    },
+    {
+      "category": "smartwatch",
+      "image_link": "https://rukminim2.flixcart.com/image/850/1000/kzhbfrk0/smartwatch/l/e/9/-original-imagbhzwf6gpzegy.jpeg?q=90",
+      "price": 349.99,
+      "product_name": "Slim Smartwatch with Notifications",
+      "description": "A slim and stylish smartwatch with notification alerts. Stay connected on the go.",
+      "rating": "4.2"
+    },
+    {
+      "category": "men",
+      "image_link": "https://m.media-amazon.com/images/I/714LYfFmG+L._AC_UY1100_.jpg",
+      "price": 599.99,
+      "product_name": "Men's Leather Belt",
+      "description": "A genuine leather belt for men. Enhance your style with this classic accessory.",
+      "rating": "4.6"
+    },
+    {
+      "category": "women",
+      "image_link": "https://5.imimg.com/data5/HA/GJ/MY-36086933/ladies-sunglasses.jpg",
+      "price": 199.99,
+      "product_name": "Women's Sunglasses",
+      "description": "Stylish sunglasses for women to protect your eyes from the sun in fashion.",
+      "rating": "4.7"
+    },
+    {
+      "category": "clock",
+      "image_link": "https://m.media-amazon.com/images/I/81e8jSwpJjL.jpg",
+      "price": 1299.99,
+      "product_name": "Modern Desk Clock",
+      "description": "A modern desk clock with a sleek metal finish. Adds a touch of elegance to your workspace.",
+      "rating": "4.6"
+    },
+    {
+      "category": "smartwatch",
+      "image_link": "https://img.tatacliq.com/images/i11/1348Wx2000H/MP000000017538879_1348Wx2000H_202305150655041.jpeg",
+      "price": 1599.99,
+      "product_name": "Premium Health Tracker Smartwatch",
+      "description": "A premium health tracker smartwatch with advanced fitness and health monitoring features.",
+      "rating": "4.7"
+    },
+    {
+      "category": "men",
+      "image_link": "https://5.imimg.com/data5/SELLER/Default/2023/1/QV/VO/SP/21650078/gvr-men-black-formal-leather-shoes.JPG",
+      "price": 1799.99,
+      "product_name": "Men's Leather Shoes",
+      "description": "High-quality leather shoes for men. Comfortable and suitable for formal occasions.",
+      "rating": "4.5"
+    },
+    {
+      "category": "women",
+      "image_link": "https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/productimage/2019/7/24/f126b57a-7cc8-4b1d-a375-a13c606875151563943726386-1.jpg",
+      "price": 1299.99,
+      "product_name": "Women's Elegant Dress",
+      "description": "An elegant dress for women, perfect for special occasions. Stylish and comfortable.",
+      "rating": "4.8"
+    },
+    {
+      "category": "clock",
+      "image_link": "https://m.media-amazon.com/images/I/71QWsOFr5tL._AC_UF894,1000_QL80_.jpg",
+      "price": 1499.99,
+      "product_name": "Vintage Wall Clock",
+      "description": "A vintage-style wall clock with Roman numerals. Adds a classic touch to your home decor.",
+      "rating": "4.4"
+    },
+    {
+      "category": "smartwatch",
+      "image_link": "https://m.media-amazon.com/images/I/71+NCxHLUqL._AC_UF894,1000_QL80_.jpg",
+      "price": 1199.99,
+      "product_name": "Slim Smartwatch with Heart Rate Monitor",
+      "description": "A slim smartwatch with heart rate monitoring and a stylish design. Stay fit and connected.",
+      "rating": "4.3"
+    },
+    {
+      "category": "men",
+      "image_link": "https://image.made-in-china.com/202f0j00tTVRWUbruKoH/Leisure-Suits-Men-Business-Suits-Navy-Wool-Suit-to-Marry-New-Best-Man-Suit.jpg",
+      "price": 1699.99,
+      "product_name": "Men's Business Suit",
+      "description": "A business suit for men with a tailored fit. Perfect for formal meetings and events.",
+      "rating": "4.9"
+    },
+    {
+      "category": "women",
+      "image_link": "https://www.saugatonline.com/products_image/cb354baed7f41eb1ed36fe7bb37cd96b.jpg",
+      "price": 1899.99,
+      "product_name": "Women's Designer Handbag",
+      "description": "A designer handbag for women made with premium materials. Elevate your style.",
+      "rating": "4.6"
     }
   ]
 }

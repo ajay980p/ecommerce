@@ -9,7 +9,7 @@ const Login = () => {
     const [password, setPassword] = useState("");
 
     const handleLogin = async () => {
-        console.log(email, password)
+        // console.log(email, password)
 
         try {
             const response = await axios.post("http://localhost:4000/login", {
@@ -36,9 +36,9 @@ const Login = () => {
     })
 
     return (
-        <section className="vh-100">
+        <section className="container mt-5">
             <div className="container-fluid h-custom">
-                <div className="row d-flex justify-content-center align-items-center h-100">
+                <div className="row d-flex justify-content-center align-items-center">
                     <div className="col-md-9 col-lg-6 col-xl-5">
                         <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.webp"
                             className="img-fluid" alt="Sample image" />
