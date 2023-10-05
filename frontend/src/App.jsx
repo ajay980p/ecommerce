@@ -8,6 +8,8 @@ import ProductWithID from './components/ProductWithID'
 import PrivateComponent from './components/authentication/PrivateComponent'
 import Search from './components/Search'
 import Cart from './components/cart'
+import NotFound from './components/not-found'
+
 
 function App() {
   return (
@@ -20,11 +22,15 @@ function App() {
           <Route path='/' element={<ShowProducts />} />
           <Route path='/product/:id' element={<ProductWithID />} />
           <Route path='/search' element={<Search />} />
-          <Route path='/cart' element={<Cart />} />
+          <Route path='/cart' exact element={<Cart />} />
         </Route>
 
         <Route path='/register' element={<Register />} />
         <Route path='/login' element={<Login />} />
+
+        {/* If no any other route matches then it will redirect to 404 NOT Found */}
+        <Route path="*" element={<NotFound />} />
+
       </Routes>
 
     </BrowserRouter>

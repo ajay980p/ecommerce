@@ -1,3 +1,4 @@
+import { useSelector } from "react-redux";
 import { Link, useNavigate } from "react-router-dom"
 
 const Navbar = () => {
@@ -41,13 +42,9 @@ const Navbar = () => {
                                             <button className="btn bg-success text-light" type="submit">Search</button>
                                         </form>
 
-                                        <li>
-                                            <Link className="nav-link active text-light" aria-current="page" to="/cart">cart {0}</Link>
+                                        <li className="nav-item">
+                                            <Link className="nav-link text-light" to="/cart">Cart ({useSelector((data) => data.cart.cartItems.length)})</Link>
                                         </li>
-
-                                        {/* <li className="nav-item">
-                                            <Link className="nav-link text-light" to="/login">Cart</Link>
-                                        </li> */}
                                     </ul>
                                 </>
                                 :
